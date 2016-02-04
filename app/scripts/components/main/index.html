@@ -1,0 +1,17 @@
+<a href="javascript:;" ng-click="changeLanguage('en');">English</a> |
+<a href="javascript:;" ng-click="changeLanguage('de');">Deutsch</a> |
+<a href="javascript:;" ng-click="changeLanguage('es');">Spanisch</a>
+
+<div class="page-header">
+  <h1>{{'TITLE' | translate: '{ username: "Joshua" }'}}</h1>
+
+  <p>{{'DESCRIPTION' | translate}}</p>
+</div>
+
+{{ 'LIKE_TEXT' | translate: { GENDER: gender} : "messageformat"}}
+
+<br><br>
+
+<a href="javascript:;" ng-click="gender = 'male'">{{'GENDER.MALE' | translate}}</a> |
+<a href="javascript:;" ng-click="gender = 'female'">{{'GENDER.FEMALE' | translate}}</a> |
+<a href="javascript:;" ng-click="gender = 'other'">{{'GENDER.OTHER' | translate}}</a>

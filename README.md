@@ -1,0 +1,1 @@
+# Example AngularJS Translate Project

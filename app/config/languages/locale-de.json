@@ -1,0 +1,10 @@
+{
+  "TITLE": "Hallo {{username}}!",
+  "DESCRIPTION": "Angular basiert auf der clientseitigen Generierung von HTML-Ansichten und Erweiterungen des Vokabulars von HTML. Hierdurch kann Funktionalität im Rahmen der View abgebildet werden, ohne auf DOM-Manipulation via jQuery zurückgreifen zu müssen. Angular behandelt die Datenvalidierung im Rahmen von Eingabeformularen als Funktionalität der View. Hierbei wird der Gedanke der HTML5-Form-Validation fortgesetzt und durch AngularJS in eine Webbrowser-unabhängige Javascript-Variante implementiert. Diese Vorgehensweise besitzt keine Funktionalitäten zur Abbildung von Fachkonzept-Daten (Model) in Form einer clientseitigen Entitätenverwaltung. In anderen SPA-Frameworks stellt dies einen typischen Bereich zur Datenvalidierung dar. Stattdessen werden die Fachkonzeptdaten häufig direkt in einem ViewModel abgelegt. In dem offenen Vorschlag Data Persistence in Angular 2.0 wird über eine Erweiterung hinsichtlich dieses Funktionsbereichs nachgedacht",
+  "LIKE_TEXT": "{GENDER, select, male{Er fand} female{Sie fand} other{Sie fanden}} es gut.",
+  "GENDER": {
+    "MALE": "Männlich",
+    "FEMALE": "Weiblich",
+    "OTHER": "Andere"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Angular Translate Example Project",
+  "version": "0.0.1",
+  "private": false,
+  "authors": [
+    "Joshua Meyers <joshua@skavu.de>"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "latest",
+    "angular": "latest",
+    "angular-bootstrap": "latest",
+    "angular-ui-router": "latest",
+    "angular-translate": "latest",
+    "angular-translate-loader-static-files": "latest",
+    "modernizr": "~3.3.1",
+    "angular-translate-interpolation-messageformat": "~2.9.0"
+  },
+  "resolutions": {
+    "angular": "latest",
+    "pikaday": "master"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awsome.css",
+        "fonts/*"
+      ]
+    }
+  },
+  "devDependencies": {
+    "karma-read-json": "latest"
+  }
+}

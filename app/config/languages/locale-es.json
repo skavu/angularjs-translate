@@ -1,0 +1,10 @@
+{
+  "TITLE": "Hola {{username}}!",
+  "DESCRIPTION": "Angular se basa en la generación del lado del cliente de puntos de vista HTML y ampliaciones del vocabulario de HTML. Esta funcionalidad se puede visualizar en la vista, sin tener que depender de la manipulación DOM a través de jQuery. Golosinas angulares de la validación de datos en el contexto de los formularios de inscripción como la funcionalidad de la vista. Aquí, la idea de la validación de formularios HTML5 se continúa e implementado por AngularJS en una variante Javascript independiente del navegador. Este procedimiento no tiene la funcionalidad para los requisitos de asignación de datos de definición (Model) en la forma de una gestión de entidades del lado del cliente. En otros marcos de SPA, esto representa un intervalo típico para la validación de datos. En lugar de ello, los datos de requisitos de la definición almacenan a menudo directamente en un modelo de vista. En la propuesta abierta persistencia de datos en angular 2.0 está pensando en una extensión con respecto a esta área funcional",
+  "LIKE_TEXT": "{GENDER, select, male{encontró} female{se encontró} other{encontrado}} gusto esto.",
+  "GENDER": {
+    "MALE": "Masculino",
+    "FEMALE": "Femenino",
+    "OTHER": "Andere"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "TITLE": "Hello {{username}}!",
+  "DESCRIPTION": "Angular is based on the client-side generation of HTML views and extensions of the vocabulary of HTML. This functionality can be displayed within the view, without having to rely on DOM manipulation via jQuery. Angular treats the data validation in the context of entry forms as functionality of the View. Here, the idea of HTML5 form validation is continued and implemented by AngularJS in a browser-independent Javascript variant. This procedure does not have functionality for mapping requirements definition data (Model) in the form of a client-side entities management. In other SPA frameworks, this represents a typical range for data validation. Instead, the requirements definition data stored often directly into a ViewModel. In the open proposal Data Persistence in Angular 2.0 is thinking about an extension with respect to this functional area",
+  "LIKE_TEXT": "{GENDER, select, male{He} female{She} other{They}} liked this.",
+  "GENDER": {
+    "MALE": "Male",
+    "FEMALE": "Female",
+    "OTHER": "Other"
+  }
+}
